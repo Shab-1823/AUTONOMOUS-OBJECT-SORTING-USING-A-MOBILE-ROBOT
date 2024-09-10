@@ -1,22 +1,38 @@
-AUTONOMOUS OBJECT SORTING USING A MOBILE ROBOT
+Autonomous Object Sorting Using a Mobile Robot
 
+Abstract:
+This project focuses on creating an autonomous mobile robot (AMR) capable of sorting objects based on color. 
+The robot performs this task without human intervention, using sensors and algorithms developed in MATLAB/Simulink and Stateflow. 
+The algorithm is designed to make the robot identify colored pucks and sort them into respective zones, achieving autonomy in object sorting. 
+The system was tested in a simulated environment, and the trials showed successful puck sorting, with average completion times around 60 seconds.
 
+Introduction:
+Autonomous mobile robots (AMRs) can navigate and make decisions based on their environment. 
+This project aims to simulate an AMR that sorts colored pucks into designated zones in a 5x5-meter arena. 
+The robot starts at a specific location, detects the pucks' color using a color sensor, and moves them to the corresponding colored zone without colliding with the walls.
 
-Project Overview:
-Led a collaborative effort to develop an autonomous mobile robot capable of object sorting without human intervention, showcasing the integration of advanced robotics with decision-making algorithms. 
-The project utilized MATLAB, Simulink, and Stateflow for simulation, implementing an algorithm that allowed the robot to identify, sort, and transport objects based on color within a predefined arena. 
-The initiative aimed to demonstrate the practical application of robotics in automated sorting systems, highlighting the potential for enhancing efficiency in industrial settings.
+Theory and Procedure:
+The robot moves using four basic operations: turning left, turning right, moving forward, and moving backward. 
+A two-dimensional coordinate system is used to define the environment. The process includes:
+1. Moving to the first puck, detecting its color, and pushing it to the correct zone.
+2. Repeat the process for the second puck and then return to the origin.
 
+Robot Attributes:
+- Color detection camera for identifying pucks.
+- Three proximity sensors for navigation, ensuring collision avoidance.
 
-Key Contributions:
-- Simulation and Modeling: Spearheaded the development of a dynamic simulation model in MATLAB and Simulink, accurately representing the robot's environment, including obstacles and target zones.
-- Algorithm Design and Implementation: Designed and implemented a sophisticated algorithm that enabled the robot to autonomously detect object colors, navigate to designated zones, and avoid collisions, achieving a seamless sorting process.
-- Sensor Integration: Integrated multiple sensor inputs, including color detection and proximity sensors, to facilitate accurate real-time object recognition and spatial awareness.
-- Team Coordination and Collaboration: Actively collaborated with team members to divide tasks effectively, ensuring each component of the project was developed and tested to meet our high standards of quality and functionality.
-- Performance Analysis: Conducted extensive testing and analysis, successfully demonstrating the robot's ability to sort objects with high accuracy and repeatability, achieving an average sorting time of approximately 60 seconds.
+Methods and Algorithms:
+The project uses a combination of MATLAB functions and Stateflow to modularize the robot's actions. 
+The algorithm defines the robot's path based on puck colors and proximity to objects, ensuring smooth and accurate movements.
 
+Results & Discussion:
+- Trial 1: Successfully sported a red and sported puck in 73 seconds.
+- Trial 2: Sorted another red and blue puck in 81.2 seconds.
+- Trial 3: Sorted a red and green puck in 67.6 seconds.
+All trials showed no collisions and smooth trajectories. The robot accurately identified puck colors and sorted them into the correct zones.
 
-Impact:
-This project not only reinforced the theoretical foundations of autonomous robotics but also provided practical insights into the challenges and solutions associated with developing intelligent, self-guided robotic systems. 
-The successful implementation of the autonomous sorting robot illustrates the potential of robotics in industrial automation and efficiency enhancement, setting the stage for future innovations in the field.
+Conclusion:
+The project successfully implemented autonomous sorting, path planning, and collision avoidance in a simulated environment. 
+The robot consistently performed the tasks with high accuracy, demonstrating the effectiveness of the developed algorithm. 
+Further improvements could enhance autonomy, allowing the robot to handle more complex tasks.
 
