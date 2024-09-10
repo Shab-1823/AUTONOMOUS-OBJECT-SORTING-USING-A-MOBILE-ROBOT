@@ -1,0 +1,22 @@
+AUTONOMOUS OBJECT SORTING USING A MOBILE ROBOT
+
+
+
+Project Overview:
+Led a collaborative effort to develop an autonomous mobile robot capable of object sorting without human intervention, showcasing the integration of advanced robotics with decision-making algorithms. 
+The project utilized MATLAB, Simulink, and Stateflow for simulation, implementing an algorithm that allowed the robot to identify, sort, and transport objects based on color within a predefined arena. 
+The initiative aimed to demonstrate the practical application of robotics in automated sorting systems, highlighting the potential for enhancing efficiency in industrial settings.
+
+
+Key Contributions:
+- Simulation and Modeling: Spearheaded the development of a dynamic simulation model in MATLAB and Simulink, accurately representing the robot's environment, including obstacles and target zones.
+- Algorithm Design and Implementation: Designed and implemented a sophisticated algorithm that enabled the robot to autonomously detect object colors, navigate to designated zones, and avoid collisions, achieving a seamless sorting process.
+- Sensor Integration: Integrated multiple sensor inputs, including color detection and proximity sensors, to facilitate accurate real-time object recognition and spatial awareness.
+- Team Coordination and Collaboration: Actively collaborated with team members to divide tasks effectively, ensuring each component of the project was developed and tested to meet our high standards of quality and functionality.
+- Performance Analysis: Conducted extensive testing and analysis, successfully demonstrating the robot's ability to sort objects with high accuracy and repeatability, achieving an average sorting time of approximately 60 seconds.
+
+
+Impact:
+This project not only reinforced the theoretical foundations of autonomous robotics but also provided practical insights into the challenges and solutions associated with developing intelligent, self-guided robotic systems. 
+The successful implementation of the autonomous sorting robot illustrates the potential of robotics in industrial automation and efficiency enhancement, setting the stage for future innovations in the field.
+
